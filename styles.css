@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: aqua;
+    font-size: 1.2em;
+}
+
+main {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* ul {
+    list-style: none;
+} */
+.data {
+    background-color:lightgray;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: gray 2px 4px 10px 2px;
+}
+
+#enter-data form {
+    width: 100%;
+}
+
+
+form p, form p * {
+    margin: 10px 0;
+}
+
+form p label, form p input{
+    display: block;
+}
+
+form input[type="text"] {
+    width: 100%;
+    height: 30px;
+    padding: 5px;
+}

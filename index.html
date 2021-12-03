@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Losto</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="main.js" defer></script>
+</head>
+<body>
+    <main>
+        
+        <div id="enter-data" class="data">
+            <form action="" id="form">
+                <p>
+                    <label for="data">Enter a text</label>
+                    <input type="text" name="data" id="data" placeholder="Ex: How are you?" />
+                </p>
+                <p>
+                    <input type="button" value="Add to list" />
+                </p>
+            </form>
+        </div>
+        <div id="list-data" class="data">
+            <ul id="stored-data">
+                <li>How are you</li>
+            </ul>
+        </div>
+        <div class="data">
+            <p>The page was loaded <span id="page-load-counter">0</span></p>
+        </div>
+    </main>
+</body>
+</html>
